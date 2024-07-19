@@ -4,8 +4,8 @@ namespace TelCo.ColorCoder
     {
         static void Main(string[] args)
         {
-            ColorMappingTests.RunTests();
-            PairNumberMappingTests.RunTests();
+            ColorMappingTests.TestColorMapping();
+            PairNumberMappingTests.TestPairNumberMapping();
         }
     }
 }
